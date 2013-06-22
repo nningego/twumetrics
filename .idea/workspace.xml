@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346b484-bc6d-49ff-828c-77a76615e6fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MetricCmd.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/MetricCmd_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twumetrics.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twumetrics.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
     <ignored path="twumetrics.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371879928071" ignored="false" />
     <file path="/Gemfile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371881252352" ignored="false" />
-    <file path="/Rakefile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371881462551" ignored="false" />
+    <file path="/Rakefile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883915408" ignored="false" />
     <file path="/README.md" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371880068793" ignored="false" />
     <file path="/svncmd_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883271036" ignored="false" />
     <file path="/metric_command.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883227717" ignored="false" />
@@ -100,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twumetrics.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twumetrics.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twumetrics.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.19169329">
+            <state line="8" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+            <state line="7" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.16773163">
               <folding />
             </state>
           </provider>
@@ -157,7 +151,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/svncmd_spec.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/lib/MetricCommand_spec.rb" />
         <option value="$PROJECT_DIR$/lib/metric_command.rb" />
         <option value="$PROJECT_DIR$/lib/MetricCommand.rb" />
@@ -166,6 +159,7 @@
         <option value="$PROJECT_DIR$/lib/MetricCmd.rb" />
         <option value="$PROJECT_DIR$/spec/MetricCmd_spec.rb" />
         <option value="$PROJECT_DIR$/twumetrics.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -566,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/MetricCmd.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="27" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
@@ -596,7 +583,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twumetrics.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.19169329">
+        <state line="8" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.16773163">
           <folding />
         </state>
       </provider>

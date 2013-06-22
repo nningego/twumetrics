@@ -4,5 +4,8 @@ RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
 
+task :push do
+  `git push -u origin master`
+end
 
 

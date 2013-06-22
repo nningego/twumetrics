@@ -11,4 +11,8 @@ class Daterator
     @end = @start if @start > @end
   end
 
+  def execute
+    @start.upto(@end) { |d| yield d }
+  end
+
 end

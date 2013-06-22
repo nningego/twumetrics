@@ -1,5 +1,9 @@
-* checkout for a specific day
-* checkins per day
-* lines of code
+ruby twumetrics.rb --help
+
+ruby twumetrics.rb -p /some/path/twu31/trunk -s 2013-06-19
+
+* checkout a specific day - done
+* checkins per day - done
+* lines of code - done
 * build time
 * number of unit/integration/functional tests

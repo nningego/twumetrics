@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d346b484-bc6d-49ff-828c-77a76615e6fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twumetrics.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371879928071" ignored="false" />
     <file path="/Gemfile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371881252352" ignored="false" />
-    <file path="/Rakefile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883915408" ignored="false" />
+    <file path="/Rakefile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883998918" ignored="false" />
     <file path="/README.md" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371880068793" ignored="false" />
     <file path="/svncmd_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883271036" ignored="false" />
     <file path="/metric_command.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883227717" ignored="false" />
@@ -115,7 +116,7 @@
       <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.16773163">
+            <state line="7" column="35" selection-start="139" selection-end="139" vertical-scroll-proportion="0.16773163">
               <folding />
             </state>
           </provider>
@@ -590,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.16773163">
+        <state line="7" column="35" selection-start="139" selection-end="139" vertical-scroll-proportion="0.16773163">
           <folding />
         </state>
       </provider>

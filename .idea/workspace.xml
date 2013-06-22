@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346b484-bc6d-49ff-828c-77a76615e6fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Daterator_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/daterator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twumetrics.rb" afterPath="$PROJECT_DIR$/twumetrics.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twumetrics.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371879928071" ignored="false" />
     <file path="/Gemfile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371881252352" ignored="false" />
-    <file path="/Rakefile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883998918" ignored="false" />
+    <file path="/Rakefile" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371884032830" ignored="false" />
     <file path="/README.md" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371880068793" ignored="false" />
     <file path="/svncmd_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883271036" ignored="false" />
     <file path="/metric_command.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883227717" ignored="false" />
     <file path="/temp.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371881767661" ignored="false" />
     <file path="/MetricCommand_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371882484358" ignored="false" />
     <file path="/twumetrics" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371882933042" ignored="false" />
-    <file path="/twumetrics.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371883797350" ignored="false" />
+    <file path="/twumetrics.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371884860596" ignored="false" />
+    <file path="/Daterator_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371886696478" ignored="false" />
+    <file path="/daterator.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371886712292" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +100,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Daterator_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/Daterator_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="49" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daterator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/daterator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="57" selection-start="220" selection-end="220" vertical-scroll-proportion="0.19900498">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="twumetrics.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twumetrics.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="5" column="14" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="139" selection-end="139" vertical-scroll-proportion="0.16773163">
+            <state line="7" column="5" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,9 +181,11 @@
         <option value="$PROJECT_DIR$/spec/MetricCommand_spec.rb" />
         <option value="$PROJECT_DIR$/twumetrics" />
         <option value="$PROJECT_DIR$/lib/MetricCmd.rb" />
-        <option value="$PROJECT_DIR$/spec/MetricCmd_spec.rb" />
-        <option value="$PROJECT_DIR$/twumetrics.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/twumetrics.rb" />
+        <option value="$PROJECT_DIR$/spec/MetricCmd_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/Daterator_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/daterator.rb" />
       </list>
     </option>
   </component>
@@ -561,6 +586,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/MetricCmd.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="27" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
@@ -568,9 +607,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/twumetrics.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+        <state line="5" column="14" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -582,16 +621,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twumetrics.rb">
+    <entry file="file://$PROJECT_DIR$/spec/Daterator_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="13" column="49" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/lib/daterator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="139" selection-end="139" vertical-scroll-proportion="0.16773163">
+        <state line="8" column="57" selection-start="220" selection-end="220" vertical-scroll-proportion="0.19900498">
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@ RSpec::Core::RakeTask.new(:spec)
 task :default => :spec
 
 task :push do
-  sytem "git push -u origin master"
+  system "git push -u origin master"
 end
 
 

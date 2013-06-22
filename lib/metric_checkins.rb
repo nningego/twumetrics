@@ -1,3 +1,11 @@
 class MetricCheckins
-  # To change this template use File | Settings | File Templates.
+
+  def header
+    "checkins"
+  end
+
+  def cmd path, date
+    "svn log --quiet #{path} | grep #{date} | wc -l"
+  end
+
 end

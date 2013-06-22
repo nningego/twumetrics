@@ -1,7 +1,6 @@
 require 'rspec'
 require 'daterator'
 
-
 describe 'Daterator' do
 
   it 'should parse start and end from string' do

@@ -1,7 +1,6 @@
 require 'date'
 require 'choice'
-require './lib/MetricCmd'
-require './lib/Daterator'
+Dir["./lib/*.rb"].each {|file | require file }
 
 Choice.options do
   header ''
@@ -33,18 +32,5 @@ Choice.options do
 
 end
 
-def exec(cmd)
-  `#{cmd}`.strip!
-end
-
-puts "date\tloc\tcheckins"
-Daterator.new(Choice[:start_date], Choice[:end_date]).execute do |date|
-  exec(MetricCmd.revertTo Choice[:path], date + 1)
-  puts [
-           date,
-           exec(MetricCmd.countLOC Choice[:path]),
-           exec(MetricCmd.numberOfCheckins Choice[:path], date)
-       ].join("\t")
-end
-
-
+twu_metrics = TWUMetrics.new
+twu_metrics.report Choice[:path], Choice[:start_date], Choice[:end_date]

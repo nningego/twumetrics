@@ -1,10 +1,11 @@
 require 'rspec'
+require 'metric_loc'
 
-describe 'My behaviour' do
+describe 'lines of code' do
 
-  it 'should do something' do
+  let(:loc) { MetricLOC.new }
 
-    #To change this template use File | Settings | File Templates.
-    true.should == false
-  end
+  it { loc.cmd("/some/path", "ANY_DATE").should eq("find /some/path -name '*.java' | xargs wc -l | tail -1 | awk '{print $1}'") }
+  it { loc.header.should eq("loc") }
+
 end

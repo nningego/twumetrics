@@ -37,10 +37,14 @@ def exec(cmd)
   `#{cmd}`.strip!
 end
 
+puts "date\tloc\tcheckins"
 Daterator.new(Choice[:start_date], Choice[:end_date]).execute do |date|
   exec(MetricCmd.revertTo Choice[:path], date + 1)
-  puts "#{date} loc      " + exec(MetricCmd.countLOC Choice[:path])
-  puts "#{date} checkins " + exec(MetricCmd.numberOfCheckins Choice[:path], date)
+  puts [
+           date,
+           exec(MetricCmd.countLOC Choice[:path]),
+           exec(MetricCmd.numberOfCheckins Choice[:path], date)
+       ].join("\t")
 end
 
 

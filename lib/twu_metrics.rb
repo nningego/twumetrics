@@ -1,7 +1,11 @@
 class TWUMetrics
 
   def report path, start_date, end_date
-    metrics = [MetricCheckins.new(), MetricLOC.new()]
+    metrics = [
+        MetricCheckins.new,
+        MetricLOC.new,
+        MetricUnitTests.new
+    ]
 
     puts header(metrics)
 

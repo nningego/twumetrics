@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346b484-bc6d-49ff-828c-77a76615e6fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/metric_test_cnt.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/metric_test_count_spec.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/metric_unit_tests.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/metric_unit_tests_spec.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/metric_loc.rb" afterPath="$PROJECT_DIR$/lib/metric_loc.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/metric_loc_spec.rb" afterPath="$PROJECT_DIR$/spec/metric_loc_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/metric_test_count_spec.rb" afterPath="$PROJECT_DIR$/spec/metric_test_count_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/twu_metrics.rb" afterPath="$PROJECT_DIR$/lib/twu_metrics.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twumetrics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,31 +26,32 @@
     <file path="/MetricCmd.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371892467737" ignored="false" />
     <file path="/metric_checkins_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371901646227" ignored="false" />
     <file path="/metric_checkins.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371900935660" ignored="false" />
-    <file path="/metric_loc_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371902055812" ignored="false" />
-    <file path="/metric_loc.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371902081014" ignored="false" />
+    <file path="/metric_loc_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372043757246" ignored="false" />
+    <file path="/metric_loc.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372043789815" ignored="false" />
     <file path="/svn_revert.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371902403747" ignored="false" />
-    <file path="/twu_metrics.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040504578" ignored="false" />
+    <file path="/twu_metrics.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372043858922" ignored="false" />
     <file path="/twumetrics_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371903484252" ignored="false" />
     <file path="/metric_build_time_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1371904232723" ignored="false" />
     <file path="/metric_unit_tests_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040428434" ignored="false" />
     <file path="/metric_unit_tests.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040341757" ignored="false" />
     <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/Cart.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372039918016" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/Item.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/Account.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/test/java/com/trailblazers/freewheelers/web/ItemControllerTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/ManageItemsTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/Item.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/Account.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/test/java/com/trailblazers/freewheelers/web/ItemControllerTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/ManageItemsTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
     <file path="$PROJECT_DIR$/../p2/src/test/java/com/trailblazers/freewheelers/web/CartControllerTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372039918017" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/ItemType.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/ItemType.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
     <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/Category.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372039918017" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/AccountValidation.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/AccountMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/ItemMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/AccountTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/AccountRoleMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/model/AccountValidation.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/AccountMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/ItemMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/AccountTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/AccountRoleMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
     <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/CartIconTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372039918017" ignored="false" />
-    <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/OrderTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040485326" ignored="false" />
+    <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/OrderTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372040882956" ignored="false" />
     <file path="$PROJECT_DIR$/../p2/src/test/java/functional/com/trailblazers/freewheelers/HomeTest.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372039918017" ignored="false" />
     <file path="$PROJECT_DIR$/../p2/src/main/java/com/trailblazers/freewheelers/mappers/CategoryMapper.java" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372039918017" ignored="false" />
+    <file path="/metric_test_count_spec.rb" changelist="d346b484-bc6d-49ff-828c-77a76615e6fd" time="1372043732072" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <file leaf-file-name="twumetrics.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twumetrics.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+            <state line="17" column="58" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +133,16 @@
       <file leaf-file-name="twu_metrics.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/twu_metrics.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="51" selection-start="275" selection-end="275" vertical-scroll-proportion="0.19900498">
+            <state line="6" column="43" selection-start="192" selection-end="192" vertical-scroll-proportion="0.14925373">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="60" selection-end="66" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +160,7 @@
       <file leaf-file-name="metric_loc_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/metric_loc_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="269" vertical-scroll-proportion="0.0">
+            <state line="11" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,7 +169,7 @@
       <file leaf-file-name="metric_test_count_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/metric_test_count_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="14" column="2" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,7 +187,7 @@
       <file leaf-file-name="metric_loc.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/metric_loc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="19" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="6" column="21" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,8 +221,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/spec/metric_checkins_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/metric_loc_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/metric_loc.rb" />
         <option value="$PROJECT_DIR$/lib/MetricCmd.rb" />
         <option value="$PROJECT_DIR$/lib/svn_revert.rb" />
         <option value="$PROJECT_DIR$/spec/MetricCmd_spec.rb" />
@@ -226,7 +232,9 @@
         <option value="$PROJECT_DIR$/spec/metric_unit_tests_spec.rb" />
         <option value="$PROJECT_DIR$/lib/metric_unit_tests.rb" />
         <option value="$PROJECT_DIR$/lib/metric_test_cnt.rb" />
+        <option value="$PROJECT_DIR$/spec/metric_loc_spec.rb" />
         <option value="$PROJECT_DIR$/spec/metric_test_count_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/metric_loc.rb" />
         <option value="$PROJECT_DIR$/lib/twu_metrics.rb" />
       </list>
     </option>
@@ -610,13 +618,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" />
@@ -655,30 +656,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twumetrics.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/daterator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/metric_loc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="19" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/metric_loc_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -697,16 +677,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="60" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/metric_test_count_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="14" column="2" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/metric_loc_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/metric_loc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twumetrics.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="58" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/twu_metrics.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="275" selection-end="275" vertical-scroll-proportion="0.19900498">
+        <state line="6" column="43" selection-start="192" selection-end="192" vertical-scroll-proportion="0.14925373">
           <folding />
         </state>
       </provider>

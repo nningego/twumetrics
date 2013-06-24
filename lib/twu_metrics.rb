@@ -3,7 +3,8 @@ class TWUMetrics
   def report path, start_date, end_date
     metrics = [
         MetricCheckins.new,
-        MetricLOC.new,
+        MetricLOC.new("LOC_prod", "src/main"),
+        MetricLOC.new("LOC_test", "src/test"),
         MetricTestCnt.new("unit", "com"),
         MetricTestCnt.new("integration", "integration"),
         MetricTestCnt.new("functional", "functional"),

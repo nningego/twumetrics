@@ -8,11 +8,9 @@ describe 'number of tests' do
     tests.cmd("/root/path", "ANY_DATE").should eq("grep -r --exclude=\"*\.svn*\" @Test /root/path/src/test/java/unit/test/path/* | wc -l")
   end
 
-  it "should build the command for the correct sub di" do
+  it "have the right header" do
     tests = MetricTestCnt.new("Unit Tests", "any/path")
     tests.header.should eq("Unit Tests")
   end
-
-
 
 end

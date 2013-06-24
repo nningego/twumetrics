@@ -4,7 +4,9 @@ class TWUMetrics
     metrics = [
         MetricCheckins.new,
         MetricLOC.new,
-        MetricUnitTests.new
+        MetricTestCnt.new("unit", "com"),
+        MetricTestCnt.new("integration", "integration"),
+        MetricTestCnt.new("functional", "functional"),
     ]
 
     puts header(metrics)

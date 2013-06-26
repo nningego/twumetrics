@@ -5,9 +5,10 @@ class TWUMetrics
         MetricCheckins.new,
         MetricLOC.new("LOC_prod", "src/main"),
         MetricLOC.new("LOC_test", "src/test"),
-        MetricTestCnt.new("unit", "com"),
-        MetricTestCnt.new("integration", "integration"),
-        MetricTestCnt.new("functional", "functional"),
+        MetricTagCnt.new("unit", "com", "@Test"),
+        MetricTagCnt.new("integration", "integration", "@Test"),
+        MetricTagCnt.new("functional", "functional", "@Test"),
+        MetricTagCnt.new("ignores", "", "@Ignore")
     ]
 
     puts header(metrics)

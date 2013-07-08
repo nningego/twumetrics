@@ -9,7 +9,7 @@ class MetricTagCnt
   end
 
   def cmd path, date
-    "grep -r --exclude=\"*\.svn*\" #{@tag} #{path}/src/test/java/#{@test_path}/* | wc -l"
+    "grep -r -i --exclude=\"*\.svn*\" #{@tag} #{path}/src/test/java/#{@test_path}/* | wc -l"
   end
 
 end

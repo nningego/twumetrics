@@ -9,6 +9,7 @@ class TWUMetrics
         MetricTagCnt.new("integration", "integration", "@Test"),
         MetricTagCnt.new("functional", "functional", "@Test"),
         MetricTagCnt.new("ignores", "", "@Ignore")
+        MetricTagCnt.new("todos", "", "TODO")
     ]
 
     puts header(metrics)

@@ -8,7 +8,7 @@ class TWUMetrics
         MetricTagCnt.new("unit", "com", "@Test"),
         MetricTagCnt.new("integration", "integration", "@Test"),
         MetricTagCnt.new("functional", "functional", "@Test"),
-        MetricTagCnt.new("ignores", "", "@Ignore")
+        MetricTagCnt.new("ignores", "", "@Ignore"),
         MetricTagCnt.new("todos", "", "TODO")
     ]
 

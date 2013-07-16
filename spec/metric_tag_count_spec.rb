@@ -3,9 +3,9 @@ require 'metric_tag_cnt'
 
 describe 'number of tests' do
 
-  it "should build the command for the correct sub di" do
+  it "should build the command for the correct sub dir" do
     tests = MetricTagCnt.new("ANY_TITLE", "unit/test/path", "@Test")
-    tests.cmd("/root/path", "ANY_DATE").should eq("grep -r --exclude=\"*\.svn*\" @Test /root/path/src/test/java/unit/test/path/* | wc -l")
+    tests.cmd("/root/path", "ANY_DATE").should eq("grep -r -i --exclude=\"*\.svn*\" @Test /root/path/src/test/java/unit/test/path/* | wc -l")
   end
 
   it "have the right header" do
